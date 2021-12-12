@@ -1,0 +1,1 @@
+export const inputValidator = (value: any) => (!value ? "Please enter a text." : "");

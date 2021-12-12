@@ -22,7 +22,6 @@ export const FormInput = (fieldRenderProps: any) => {
         ...others
     } = fieldRenderProps;
 
-    const inputValidator = (value: any) => (!value ? "Please enter a text." : "");
     const showValidationMessage = touched && validationMessage;
     const showHint = !showValidationMessage && hint;
     const hintId = showHint ? `${id}_hint` : "";
